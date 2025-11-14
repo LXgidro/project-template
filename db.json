@@ -1,0 +1,265 @@
+{
+  "users": [
+    {
+      "id": "0",
+      "login": "admin",
+      "password": "admin0",
+      "registeredAt": "2052-08-02",
+      "role_id": 0
+    },
+    {
+      "id": "1",
+      "login": "moderator",
+      "password": "moderator",
+      "registeredAt": "2052-08-02",
+      "role_id": 1
+    },
+    {
+      "login": "user1",
+      "password": "1user1",
+      "registed_at": "2038-01-31 06:12",
+      "role_id": 2,
+      "id": "NHfID8X"
+    },
+    {
+      "login": "user2",
+      "password": "2user2",
+      "registed_at": "2049-01-25 14:08",
+      "role_id": 2,
+      "id": "rOwGCT4"
+    }
+  ],
+  "roles": [
+    {
+      "id": "0",
+      "name": "Администратор"
+    },
+    {
+      "id": "1",
+      "name": "Модератор"
+    },
+    {
+      "id": "2",
+      "name": "Читатель"
+    },
+    {
+      "id": "3",
+      "name": "Гость"
+    }
+  ],
+  "posts": [
+    {
+      "id": "c84f",
+      "title": "title 1",
+      "image_url": "https://placehold.net/600x400.png",
+      "content": "Text 1",
+      "published_at": "2038-08-11 16:42"
+    },
+    {
+      "id": "6582",
+      "title": "title 2",
+      "image_url": "https://placehold.net/600x400.png",
+      "content": "Text 2",
+      "published_at": "2063-07-25 03:57"
+    },
+    {
+      "id": "47f6",
+      "title": "title 3",
+      "image_url": "https://placehold.net/600x400.png",
+      "content": "Text 3",
+      "published_at": "2045-09-17 03:24"
+    },
+    {
+      "id": "aea3",
+      "title": "title 4",
+      "image_url": "https://placehold.net/600x400.png",
+      "content": "Text 4",
+      "published_at": "2039-06-25 08:36"
+    },
+    {
+      "id": "6810",
+      "title": "title 5",
+      "image_url": "https://placehold.net/600x400.png",
+      "content": "Text 5 ",
+      "published_at": "2057-05-29 09:43"
+    },
+    {
+      "id": "bbb0",
+      "title": "title 6",
+      "image_url": "https://placehold.net/600x400.png",
+      "content": "Text 6",
+      "published_at": "2041-12-05 10:07"
+    },
+    {
+      "id": "75ca",
+      "title": "title 7",
+      "image_url": "https://placehold.net/600x400.png",
+      "content": "Text 7",
+      "published_at": "2062-11-18 02:01"
+    },
+    {
+      "id": "5a15",
+      "title": "title 8",
+      "image_url": "https://placehold.net/600x400.png",
+      "content": "Text 8",
+      "published_at": "2043-09-29 05:31"
+    },
+    {
+      "id": "949c",
+      "title": "title 9",
+      "image_url": "https://placehold.net/600x400.png",
+      "content": "Text 9",
+      "published_at": "2049-08-05 17:51"
+    },
+    {
+      "id": "4f46",
+      "title": "title 10",
+      "image_url": "https://placehold.net/600x400.png",
+      "content": "Text 10",
+      "published_at": "2056-11-04 09:20"
+    },
+    {
+      "id": "3cec",
+      "title": "title 11",
+      "image_url": "https://placehold.net/600x400.png",
+      "content": "Text 11",
+      "published_at": "2034-12-10 16:03"
+    },
+    {
+      "id": "1e08",
+      "title": "title 12",
+      "image_url": "https://placehold.net/600x400.png",
+      "content": "Text 12",
+      "published_at": "2051-04-16 07:27"
+    }
+  ],
+  "comments": [
+    {
+      "author_id": "0",
+      "post_id": "c84f",
+      "published_at": "2063-04-15 09:39",
+      "content": "comm 1",
+      "id": 1
+    },
+    {
+      "author_id": "0",
+      "post_id": "c84f",
+      "published_at": "2061-08-01 02:32",
+      "content": "comm 2",
+      "id": 2
+    },
+    {
+      "author_id": "0",
+      "post_id": "6582",
+      "published_at": "2047-12-03 21:29",
+      "content": "comm",
+      "id": 3
+    },
+    {
+      "author_id": "0",
+      "post_id": "47f6",
+      "published_at": "2041-10-06 17:32",
+      "content": "comm",
+      "id": 4
+    },
+    {
+      "author_id": "0",
+      "post_id": "aea3",
+      "published_at": "2033-10-16 03:40",
+      "content": "comm",
+      "id": 5
+    },
+    {
+      "author_id": "0",
+      "post_id": "bbb0",
+      "published_at": "2036-06-22 15:26",
+      "content": "comm 1",
+      "id": 6
+    },
+    {
+      "author_id": "0",
+      "post_id": "bbb0",
+      "published_at": "2052-06-01 11:13",
+      "content": "comm 2",
+      "id": 7
+    },
+    {
+      "author_id": "0",
+      "post_id": "5a15",
+      "published_at": "2040-03-19 05:11",
+      "content": "comm",
+      "id": 8
+    },
+    {
+      "author_id": "0",
+      "post_id": "3cec",
+      "published_at": "2039-11-10 15:12",
+      "content": "comm 1",
+      "id": 9
+    },
+    {
+      "author_id": "0",
+      "post_id": "3cec",
+      "published_at": "2055-12-01 21:10",
+      "content": "comm 2",
+      "id": 10
+    },
+    {
+      "author_id": "0",
+      "post_id": "3cec",
+      "published_at": "2048-05-16 11:34",
+      "content": "comm 3",
+      "id": 11
+    },
+    {
+      "author_id": "1",
+      "post_id": "c84f",
+      "published_at": "2050-11-05 06:18",
+      "content": "comm",
+      "id": 12
+    },
+    {
+      "author_id": "NHfID8X",
+      "post_id": "c84f",
+      "published_at": "2044-06-18 02:27",
+      "content": "comm",
+      "id": 13
+    },
+    {
+      "author_id": "NHfID8X",
+      "post_id": "6582",
+      "published_at": "2036-07-25 23:40",
+      "content": "comm",
+      "id": 14
+    },
+    {
+      "author_id": "NHfID8X",
+      "post_id": "bbb0",
+      "published_at": "2037-10-06 08:55",
+      "content": "comm",
+      "id": 15
+    },
+    {
+      "author_id": "NHfID8X",
+      "post_id": "75ca",
+      "published_at": "2055-11-07 17:44",
+      "content": "comm",
+      "id": 16
+    },
+    {
+      "author_id": "NHfID8X",
+      "post_id": "6810",
+      "published_at": "2064-04-13 23:05",
+      "content": "comm",
+      "id": 17
+    },
+    {
+      "author_id": "rOwGCT4",
+      "post_id": "6582",
+      "published_at": "2036-05-12 15:39",
+      "content": "comm",
+      "id": 18
+    }
+  ],
+  "sessions": []
+}
